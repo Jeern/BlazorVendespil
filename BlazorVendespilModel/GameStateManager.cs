@@ -4,7 +4,11 @@ using System.Text;
 
 namespace BlazorVendespilModel
 {
-    class StateManager
+    public static class GameStateManager
     {
+        public static void ChangeState(Game game)
+        {
+
+        }
     }
 }
