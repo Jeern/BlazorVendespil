@@ -1,0 +1,54 @@
+﻿/* entire container, keeps perspective */
+.flip-container {
+    perspective: 1000px;
+}
+    /* flip the pane when active */
+    .flip-container:active .flipper, .flip-container.active .flipper {
+        transform: rotateY(180deg);
+    }
+
+.flip-container, .front, .back, .frontturned, .backturned {
+    width: 81px;
+    height: 117px;
+}
+
+.card {
+    width: 81px;
+    height: 117px;
+    background: url('/images/PCards.gif') no-repeat;
+}
+
+.cardfront {
+    background-position: 0px -1px;
+}
+
+.cardback {
+    background-position: 0px -469px;
+}
+
+/* flip speed goes here */
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back, .frontturned, .backturned {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* front pane, placed above back */
+.front, .backturned {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back, .frontturned {
+    transform: rotateY(180deg);
+}
