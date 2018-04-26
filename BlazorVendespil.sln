@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27617.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandkasse", "Sandkasse\Sandkasse.csproj", "{43DC597E-600F-474E-A7D7-9C3CA110E9B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleModel", "SampleModel\SampleModel.csproj", "{B0E36FF8-88D2-4AF9-9642-570E7178DD25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleModel", "SampleModel\SampleModel.csproj", "{B0E36FF8-88D2-4AF9-9642-570E7178DD25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorVendespil", "BlazorVendespil\BlazorVendespil.csproj", "{68A2F82F-2543-4DD0-ADFE-527F88C3A499}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B0E36FF8-88D2-4AF9-9642-570E7178DD25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0E36FF8-88D2-4AF9-9642-570E7178DD25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0E36FF8-88D2-4AF9-9642-570E7178DD25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A2F82F-2543-4DD0-ADFE-527F88C3A499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A2F82F-2543-4DD0-ADFE-527F88C3A499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A2F82F-2543-4DD0-ADFE-527F88C3A499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A2F82F-2543-4DD0-ADFE-527F88C3A499}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
